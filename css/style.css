@@ -481,6 +481,83 @@ nav{
     opacity: .5;
 }
 
+.two-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.two-boxes-box-one{
+    width: 32.33%;
+    height: 300px;
+    background-image: url(../images/digitize-ideas1.jpg);
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.two-boxes-box-two{
+    width: 67%;
+    height: 300px;
+    background-image: url(../images/digitize-ideas2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 15px;
+}
+
+.three-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 60px 0;
+}
+
+.three-boxes-box-one{
+    width: 33.33%;
+    height: 300px;
+    background-image: url(../images/digitize-ideas3.jpg);
+    background-size: cover;
+    margin-right: 15px;
+}
+
+.three-boxes-box-two{
+    width: 33.33%;
+    height: 300px;
+    background-image: url(../images/digitize-ideas4.jpg);
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.three-boxes-box-three{
+    width: 33.33%;
+    height: 300px;
+    background-image: url(../images/digitize-ideas5.jpg);
+    background-size: cover;
+    margin-left: 30px;
+    border-bottom-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.three-boxes-box-three p{
+    font-size: 1rem;
+    margin-left: 30px;
+}
+
+.three-boxes-box-three h3{
+    font-size: 3rem;
+    margin: 0 0 30px 30px;
+}
+
+
+
+
+/*                   CTA               */
+
+#cta{
+    background-color: #D5FF40;
+    padding-top: 5%;
+}
 
 
 
