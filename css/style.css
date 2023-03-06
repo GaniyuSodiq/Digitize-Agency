@@ -59,7 +59,7 @@ nav{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
     font-size: 1.1rem;
-    opacity: .8;
+    opacity: .9;
 }
 
 .navigation-ul li a:hover{
@@ -162,6 +162,7 @@ nav{
     width: 120%;
     position: relative;
     left: -20%;
+    opacity: .7;
 }
 
 .awwards-header-section{
@@ -536,10 +537,11 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: relative;
     
 }
 
-.three-boxes-box-three p{
+.three-boxes-box-three p:nth-child(2){
     font-size: 1rem;
     margin-left: 30px;
 }
@@ -549,19 +551,111 @@ nav{
     margin: 0 0 30px 30px;
 }
 
+.three-boxes-arrow{
+    background-color: #D5FF40;
+    padding: 20px 40px;
+    color: #101010;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.three-boxes-arrow p{
+    font-size: 3rem;
+    background-color: #D5FF40;
+    color: #101010;
+}
 
 
 
 /*                   CTA               */
 
 #cta{
+    background-color: #171717;
+}
+
+.cta-box{
     background-color: #D5FF40;
-    padding-top: 5%;
+    padding: 0 5% ;
+    text-align: center;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+
+.line-and-stars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0;
+    opacity: .5;
+}
+
+.cta-hr hr{
+    width: 330px;
 }
 
 
+.cta-stars{
+    display: flex;
+}
 
+.lets-discuss-your-ideas h2{
+    text-transform: uppercase;
+    font-size: 5rem;
+}
 
+.cta-buttons{
+    padding:3% 0 5%;
+}
+
+.cta-buttons button:nth-child(1){
+    background-color: #101010;
+    color: #D5FF40;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.cta-buttons button:nth-child(2){
+    color: #101010;
+    background-color: rgba(0, 0, 0, .0);
+    padding: 10px 20px;
+    border: 1px solid #101010;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#footer{
+    background-color: #171717;
+    color: #D5FF40;
+    text-align: center;
+}
+
+.footer-heading{
+    padding: 5% 0;
+    font-size: 2.5rem;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: .7rem;
+    padding-bottom: 1%;
+}
+
+.footer-text p{
+    font-size: 1rem;
+}
 
 
 
